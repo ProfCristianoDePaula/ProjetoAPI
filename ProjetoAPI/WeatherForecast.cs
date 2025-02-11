@@ -10,11 +10,6 @@ namespace ProjetoAPI
 
         public string? Summary { get; set; }
 
-        public WeatherForecast(DateOnly date, int temperatureC, string? summary)
-        {
-            Date = date;
-            TemperatureC = temperatureC;
-            Summary = summary;
-        }
+        public int Teste { get; set; }
     }
 }
